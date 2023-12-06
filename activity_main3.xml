@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#558CC6">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="164dp"
+        android:text="Условия игры"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="375dp"
+        android:layout_height="624dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="Minecraft — игра, в которой игрок должен выживать в опасном мире, состоящем из кубических блоков. В игре игрок строит и обустраивает свой мир, добывает ресурсы для создания инструментов или постройки новых зданий, а также борется с монстрами и другими опасностями, которые могут появиться.Перед началом игры нужно выбрать параметры для процедурной генерации мира. Далее игрок может настроить игровые правила и выбрать тип мира: например, «суперплоский» или «расширенный» ,с огромными горами. По умолчанию создаётся мир со множеством различных биомов относительно небольшого размера. Игровой персонаж появляется на поверхности земли без каких-либо предметов, но игрок может делать их по мере прохождения игры. По умолчанию игрок управляет персонажем в режиме от первого лица, но он также может переключиться на режим от третьего лица. У персонажа есть инвентарь для хранения и использования предметов. В нижней части экрана расположены очки здоровья, сытости и опыта . В Minecraft нет каких-либо конкретных целей или сюжета - всё строится на том, чтобы игрок импровизировал во время игры. В целом игра строится на добывании и размещении блоков, — различающимися между собой текстурой, физикой и другими признаками, — и создании предметов из ингредиентов. Главная цель - выжить! "
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

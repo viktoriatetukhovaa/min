@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nneew"
+    android:background="#558CC6">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="235dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="99dp"
+        android:backgroundTint="#1EA8CA"
+        android:text="Об игре"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="238dp"
+        android:layout_height="73dp"
+
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="95dp"
+        android:backgroundTint="#1EA8CA"
+        android:text="Условия игры"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="242dp"
+        android:layout_height="77dp"
+
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="92dp"
+        android:backgroundTint="#1EA8CA"
+        android:text="Предметы "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="238dp"
+        android:layout_height="71dp"
+
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="92dp"
+        android:backgroundTint="#1EA8CA"
+        android:text="Мобы"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="109dp"
+        android:text="Справочник"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="236dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="92dp"
+        android:backgroundTint="#1EA7C9"
+        android:text="Структуры"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="233dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="89dp"
+        android:backgroundTint="#1EA7C9"
+        android:text="О программе "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
